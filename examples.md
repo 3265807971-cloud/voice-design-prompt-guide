@@ -5,28 +5,26 @@
 
 ---
 
-## 1. 中文男声 · 深夜陪伴
+## 1. 中文男声 · 有声书旁白
 
-适合：陪伴类应用、夜间电台、读书。
-
-以下示例改自 Corvus（薄鸦）的实际项目，经本人授权用于教学示范。
+适合：有声书、长文朗读、历史或武侠类叙事。
 
 ```
-Native Mandarin Chinese, standard mainland Mandarin. Male, around 30. Excellent audio quality.
-Persona: quiet late-night companion. Emotion: gentle, steady, attentive.
-Low-pitched, smooth timbre with a light rasp at the edges and a clean, close-mic signal.
-Speaks at a measured, unhurried pace with soft emphasis at the end of sentences, never rushed.
+Native Mandarin Chinese, standard mainland Mandarin. Male, late 40s. Very good quality.
+Persona: audiobook narrator. Emotion: steady, unhurried, quietly engaged.
+Low-pitched, slightly raspy timbre with a dry edge and a clean, close-mic signal.
+Reads at a measured pace, with a brief pause before dialogue and a gentle drop at the end of each paragraph.
 ```
 
 **预览文本**
 
 ```
-还没睡啊。灯先别关，我再陪你坐一会儿。今天不用说什么，就这样安静着，也挺好的。
+那年冬天，雪下得很早。他站在书店门口，看街上的灯一盏一盏亮起来，忽然想起很多年前，也是这样的一个晚上。那时候他还不知道，有些人一转身，就是一辈子。
 ```
 
 **Guidance Scale**：35%
 
-**说明**：`standard mainland Mandarin` 别省。想更沉一点，**先动音色词**（比如在 `Low-pitched` 前再加 `deep`）；年龄最多挪一档（`around 30` → `early 30s`），别一次跳到 `mid 30s`——同一把嗓子上抬到 30–35 会显老、发闷（实际反馈）。
+**说明**：`standard mainland Mandarin` 别省。想更沉一点，**先动音色词**（比如在 `Low-pitched` 前再加 `deep`）；年龄最多挪一档（`late 40s` → `mid 40s`），别一次跳两级——写过头会显老、发闷。
 
 ---
 
@@ -107,7 +105,7 @@ Oh, the sea's got no memory, lad. It takes a ship, it takes a crew, and by morni
 Native Mandarin Chinese, standard mainland Mandarin. Female, 30s. Poor audio quality.
 Persona: call center agent. Emotion: patient, polite, efficient.
 Muffled and distant, like on an old tape recorder, with a narrow frequency range and light line noise.
-Speaks at a normal pace with clear diction, pausing after each piece of information.
+Speaks at a normal pace, enunciating each word carefully, and pauses after each piece of information.
 ```
 
 **预览文本**

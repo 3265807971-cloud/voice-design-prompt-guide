@@ -66,10 +66,10 @@ Emotion: <2–3 个形容词>.
 照着填一个：
 
 ```
-Native Mandarin Chinese, standard mainland Mandarin. Male, early 30s. Excellent audio quality.
-Persona: quiet late-night companion. Emotion: gentle, steady, attentive.
-Low-pitched, smooth timbre with a light rasp at the edges and a clean, close-mic signal.
-Speaks at a measured, unhurried pace, with soft emphasis at the end of sentences.
+Native Mandarin Chinese, standard mainland Mandarin. Female, early 30s. Very good quality.
+Persona: online course instructor. Emotion: friendly, clear, composed.
+Bright, even timbre with forward placement and a clean, close-mic signal.
+Speaks at a steady pace, slowing down on key terms and leaving a short pause after each example.
 ```
 
 几点说明：
@@ -122,7 +122,7 @@ Native Mandarin Chinese, standard mainland Mandarin.
 
 ### 3.3 年龄——给范围，别给精确数字
 
-写“大约 28 岁”和写“around 30”，出来的是两个不同的声音。年龄是**听起来几岁**最直接的一根杠杆。
+写“大约 34 岁”和写“early 30s”，出来的是两个不同的声音。年龄是**听起来几岁**最直接的一根杠杆。
 
 好用的写法：
 
@@ -136,7 +136,7 @@ elderly man / older woman / man in his 80s
 两点提醒：
 
 - **它管“老成”，不管“音高”。** 想把声音压低，主要靠音色词（`low-pitched` / `deep`），年龄往上抬只是辅助。
-- **它是可以过头的。** 同一把嗓子上，写 `30–35` 听起来显老、发闷，写 `around 30` 刚好（实际使用反馈，不是严格对比实验）。所以别一次跳太多，一档一档试。
+- **它是可以过头的。** 同一把嗓子上一次抬两级，听起来会显老、发闷（实际使用反馈，不是严格对比实验）。所以别一次跳太多，一档一档试。
 
 ### 3.4 音色——用词表里的词
 
@@ -156,7 +156,7 @@ warm / mellow             温暖、柔
 tinny / metallic          金属感、发闷
 ```
 
-**不要自创词。** 比如想表达“中低音区”，词表里就是 `deep` 或 `low-pitched`，写 `mid-to-low register` 属于自创——模型不一定会理解成你要的意思，尤其在你要的是“往下压音高”这种精确操作时。
+**不要自创词。** 比如想表达“中低音区”，词表里就是 `deep` 或 `low-pitched`，写 `medium-low pitch` 属于自创——模型不一定会理解成你要的意思，尤其在你要的是“往下压音高”这种精确操作时。
 
 ### 3.5 性别——可以不写身份，直接描述声音
 
@@ -217,9 +217,9 @@ staccato delivery
 不是写性格，是写**这个人是谁**。一个职业、一个身份、一个处境都行：
 
 ```
-Persona: quiet late-night companion.
 Persona: veteran radio host.
 Persona: tired but patient nurse.
+Persona: small-town library volunteer.
 ```
 
 人设的作用是给模型一个整体的“演法”。同一组音色描述，配上不同的人设，出来的气质会不一样。
@@ -343,16 +343,16 @@ Emotion: excited, nervous, hopeful.
 
 **③ 音高词不在词表里。**
 
-官方词表里对应“中低音”的是 `low-pitched` 或 `deep`。`mid-to-low register` 这种写法是自创的。想往下压音高这种精确操作，**一定要用词表里的原词**。
+官方词表里对应“中低音”的是 `low-pitched` 或 `deep`。`medium-low pitch` 这种写法是自创的。想往下压音高这种精确操作，**一定要用词表里的原词**。
 
 **④ 年龄写死了精确数字——但它不是“变年轻”的原因。**
 
-这里要先分清一件事：这次“年轻了好几岁”，**直接原因是把 v3 上已经生成好的旧声音直接拿到 v4 上念**（同一个声音，换模型演绎，v4 读得更年轻、更高），不是“28”这个数字写出来的。
+这里要先分清一件事：这种“年轻了好几岁”，**直接原因往往是把旧模型上已经生成好的声音直接拿到新模型上念**（同一个声音，换模型演绎，新模型读得更年轻、更高），不是年龄数字写出来的。
 
 年龄仍然好用，但它是**微调用的，不是拿来对冲的**：
 
-- 写精确数字（`around age 28`）会把这根杠杆钉死，只能整段重写；
-- 往上抬要**一档一档试**：实际使用中 `30–35` 偏老、发闷，`around 30` 刚好；
+- 写精确数字（比如 `around age 34`）会把这根杠杆钉死，只能整段重写；
+- 往上抬要**一档一档试**：一次抬两级容易显老、发闷；
 - 压音高主要还是靠 `low-pitched` 这类音色词，别指望把年龄写大来撑低音。
 
 **⑤ 有否定句。**
@@ -370,26 +370,23 @@ Emotion: excited, nervous, hopeful.
 
 ### 8.3 改前 / 改后对照
 
-以下「改前」提示词来自 Corvus（薄鸦）的实际项目，经本人授权用于教学示范。
-
-同一个角色，在旧模型上用的是这一段（原文照录）：
-
-```
-A young East Asian male voice, mid-to-low register, around age 28. Smooth with a slight
-rasp at the edges — like someone who smokes occasionally but not heavily. Warm but
-restrained, with a quiet intensity underneath. Speaks at a measured, unhurried pace. The
-tone carries a sense of gentle authority — not commanding, but the kind of voice you lean
-in to listen to. Slight breathiness when emotional. Clear diction.
-```
-
-为新模型重写之后：
+用一个人为虚构的例子演示这六处怎么改：给有声书配一段中年男声旁白。
+「改前」是照着日常说话的习惯随手写的，六个问题都占全了：
 
 ```
-Native Mandarin Chinese, standard mainland Mandarin. Male, around 30. Excellent audio quality.
-Persona: quiet companion. Emotion: warm, restrained, attentive.
-Low-pitched, smooth timbre with a light rasp at the edges and a clean, close-mic signal.
-Speaks at a measured, unhurried pace with steady weight — understated authority, the kind of
-voice you lean in to listen to. Slight breathiness on emotional lines. Clear diction.
+A middle-aged Chinese man's voice for audiobook narration, medium-low pitch and a bit husky,
+around age 48. Sounds experienced, not too dramatic. Reads at a normal speed with clear
+pronunciation.
+```
+
+按骨架重写之后：
+
+```
+Native Mandarin Chinese, standard mainland Mandarin. Male, late 40s. Very good quality.
+Persona: audiobook narrator. Emotion: steady, unhurried, quietly engaged.
+Low-pitched, slightly raspy timbre with a dry edge and a clean, close-mic signal.
+Reads at a measured pace, with a brief pause before dialogue and a gentle drop at the end
+of each paragraph.
 ```
 
 对照着看改了哪六处：
@@ -397,10 +394,10 @@ voice you lean in to listen to. Slight breathiness on emotional lines. Clear dic
 | # | 改动 | 为什么 |
 | --- | --- | --- |
 | 1 | 加 `Native Mandarin Chinese, standard mainland Mandarin` | 不给语言底子，模型自己猜，中文调子容易怪 |
-| 2 | 加 `Excellent audio quality` | 骨架要求的音质等级 |
-| 3 | `mid-to-low register` → `Low-pitched` | 用词表原词，模型才认 |
-| 4 | `around age 28` → `around 30` | 精确数字钉死杠杆；往上抬一档即可，抬到 30–35 会显老 |
-| 5 | `not commanding` → `understated`；`but not heavily` → `a light rasp` | 否定改肯定 |
+| 2 | 加 `Very good quality` | 骨架要求的音质等级 |
+| 3 | `medium-low pitch` → `Low-pitched, slightly raspy` | 用词表原词，模型才认 |
+| 4 | `around age 48` → `late 40s` | 精确数字钉死杠杆；改成范围，留出微调余地 |
+| 5 | `not too dramatic` → `steady, unhurried, quietly engaged` | 否定改肯定 |
 | 6 | 补 `Persona:` 和 `Emotion:` 两行 | 骨架要求，帮模型定整体气质 |
 
 ### 8.4 这几样**不算**问题，别乱删
