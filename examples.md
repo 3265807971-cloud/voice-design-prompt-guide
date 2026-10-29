@@ -9,11 +9,13 @@
 
 适合：陪伴类应用、夜间电台、读书。
 
+以下示例改自 Corvus（薄鸦）的实际项目，经本人授权用于教学示范。
+
 ```
-Native Mandarin Chinese, standard mainland Mandarin. Male, late 20s. Excellent audio quality.
-Persona: patient companion. Emotion: calm, warm, attentive.
-Low-pitched, warm timbre with a soft edge, recorded close to the microphone with no room noise.
-Speaks at an unhurried, even pace with soft emphasis at the end of sentences.
+Native Mandarin Chinese, standard mainland Mandarin. Male, around 30. Excellent audio quality.
+Persona: quiet late-night companion. Emotion: gentle, steady, attentive.
+Low-pitched, smooth timbre with a light rasp at the edges and a clean, close-mic signal.
+Speaks at a measured, unhurried pace with soft emphasis at the end of sentences, never rushed.
 ```
 
 **预览文本**
@@ -24,7 +26,7 @@ Speaks at an unhurried, even pace with soft emphasis at the end of sentences.
 
 **Guidance Scale**：35%
 
-**说明**：`standard mainland Mandarin` 别省。想更沉一点，**先动音色词**（比如把 `warm` 换成 `resonant`，或再加一个 `deep`）；年龄最多挪一档，别一次跳两级——写过头会显老、发闷（实际反馈）。
+**说明**：`standard mainland Mandarin` 别省。想更沉一点，**先动音色词**（比如在 `Low-pitched` 前再加 `deep`）；年龄最多挪一档（`around 30` → `early 30s`），别一次跳到 `mid 30s`——同一把嗓子上抬到 30–35 会显老、发闷（实际反馈）。
 
 ---
 
@@ -57,7 +59,7 @@ Speaks at a conversational pace, slowing down deliberately on key sentences and 
 
 ```
 Native English, neutral American accent. Male, 50s. Studio quality.
-Persona: documentary narrator. Emotion: steady, reflective, assured.
+Persona: documentary narrator. Emotion: measured, reflective, assured.
 Deep, resonant timbre with even breath support and a clean, artifact-free signal.
 Speaks slowly and evenly, with longer pauses between ideas and restrained emphasis on key nouns.
 ```
@@ -70,7 +72,7 @@ For thousands of years, this valley stayed exactly as it was. The river changed 
 
 **Guidance Scale**：30%
 
-**说明**：英文里描述“听起来有威压感”很容易写成 `authoritative` 或 `forceful`，但旁白要的是**稳**不是**凶**。用 `steady`、`assured` 更准。
+**说明**：英文里描述“听起来有威压感”很容易写成 `authoritative` 或 `commanding`，但旁白要的是**稳**不是**凶**。用 `measured`、`assured` 更准。
 
 ---
 
@@ -81,7 +83,7 @@ For thousands of years, this valley stayed exactly as it was. The river changed 
 ```
 Native English, thick Scottish accent. Male, 60s. Good quality.
 Persona: weathered sea captain. Emotion: weary, dry, faintly amused.
-Gravelly, low-pitched timbre with audible breath and a gritty texture.
+Gravelly, low-pitched timbre with audible breath and a rough edge.
 Speaks slowly with irregular pauses, trailing off at the ends of sentences like he's talking to himself.
 ```
 
@@ -105,7 +107,7 @@ Oh, the sea's got no memory, lad. It takes a ship, it takes a crew, and by morni
 Native Mandarin Chinese, standard mainland Mandarin. Female, 30s. Poor audio quality.
 Persona: call center agent. Emotion: patient, polite, efficient.
 Muffled and distant, like on an old tape recorder, with a narrow frequency range and light line noise.
-Speaks at a normal pace with clear pronunciation, pausing after each piece of information.
+Speaks at a normal pace with clear diction, pausing after each piece of information.
 ```
 
 **预览文本**
